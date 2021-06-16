@@ -1,0 +1,23 @@
+{
+  "name": "bookshelf-api-dicoding",
+  "version": "1.0.0",
+  "description": "submission dicoding untuk kelas back-end pemula",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/server.js"
+  },
+  "author": "ELmer Fiqi Tajusaladin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4",
+    "nanoid": "^3.1.23"
+  }
+}
